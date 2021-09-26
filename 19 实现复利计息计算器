@@ -1,0 +1,88 @@
+5 案例复利计息计算器
+5.1案例说明
+根据循环求和的计算器，设计一个小程序，输入 本金、利率，将本金默认为1w元，利率为3%，计算再存入银行后五年后得到的复利计息的多少钱
+每过一年，将本金和利息作和形成新的本金，就相当于将形成的新的本金再通过计算公式再形成的新的本金不断地进行累加直到最后5年得到的新的值。
+同样的设置两个函数组件一个input用来输入，一个button点击运算循环语句和求和公式。设置input的组件的bindblur属性来获取组件value的值，并点击按钮进行求和计算。
+start和end两个变量用于存放输入的数值，sum来放存取的和，startnum和endnum来获取value值，并用calc来求和并显示。
+
+5.2案例代码
+Index.wxml
+<!--index.wxml-->
+<view class="box">
+  <view class="title">复利计算器</view>
+  <view>
+    <input placeholder="本金" type="number" bindblur="benjinNum"></input> 
+    <input placeholder="利率%" type="number" bindblur="lilvNum"></input>
+  </view>
+  <view class="title1">五年总得钱：{{S}}</view>
+  <button type="primary" bindtap="calc">求和</button> 
+  <view class="name_and_class">
+      <view>孙宁祥</view>
+      <view>电科19-2</view>
+      <view>201923010223</view>
+    </view>
+</view>
+
+
+
+Index.wxss
+/**index.wxss**/
+input{
+  margin: 20px 0;
+  border-bottom: 1px solid blue;
+  text-align: center;
+}
+button{
+  margin-top: 20px;
+}
+.title{
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: red;
+}
+.name_and_class{
+  font-family: cursive;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: end;
+  margin-bottom: 15px;
+  color: blue;
+}
+.title1{
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: red;
+  background-color: yellow;
+}
+
+Index.js
+// index.js
+var benjin,lilv,sum;
+Page({
+  benjinNum:function(e){
+    benjin=parseInt(e.detail.value);
+  },
+  lilvNum:function(e){
+    lilv=parseInt(e.detail.value);
+  },
+  calc:function(){
+    sum=benjin;
+    for(var i=1;i<=5;i++){
+      sum=sum*(1+0.01*lilv);
+    }
+    this.setData({
+      S:sum
+    })
+  }
+});
+
+
+5.3案例执行截图
+
+
+5.4分析总结
+与循环求和相同，此处的复利计算不过是在求和的前一步首先需要计算出新的本金，在计算后在利用循环语句进行求和
+在界面布局时，先将本金，利率作为一个input输入，五年的总钱数作为一个输出绑定在界面上。一个button控件作为点击的程序启动器。
+定义三个变量 benjin，lilv和sum，分别将input的变量赋给前两个变量，利用for循环在1-5内不断循环，sum依次的累加求出最后的和。this.setData获取。
