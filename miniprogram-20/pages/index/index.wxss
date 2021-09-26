@@ -1,0 +1,32 @@
+/**index.wxss**/
+button{
+  margin-top: 20px;
+}
+.title{
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: red;
+}
+.name_and_class{
+  font-family: cursive;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: end;
+  margin-bottom: 15px;
+  color: blue;
+}
+.one{
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: red;
+}
+.test{
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: blue;
+  background-color: yellow;
+}
