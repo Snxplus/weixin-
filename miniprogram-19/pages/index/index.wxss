@@ -1,0 +1,30 @@
+/**index.wxss**/
+input{
+  margin: 20px 0;
+  border-bottom: 1px solid blue;
+  text-align: center;
+}
+button{
+  margin-top: 20px;
+}
+.title{
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: red;
+}
+.name_and_class{
+  font-family: cursive;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: end;
+  margin-bottom: 15px;
+  color: blue;
+}
+.title1{
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: red;
+  background-color: yellow;
+}
