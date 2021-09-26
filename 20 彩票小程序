@@ -1,0 +1,94 @@
+6 案例彩票小程序
+6.1案例说明
+对产生随机数的小程序进行包装形成简单的彩票抽取小程序，生成一注7个彩票号码，同时会有一个按钮，每点击一次都会重新生成。
+同样此处也用到了button组件，实现按钮。
+新定义了onload函数和newrand函数。
+定义了全局函数和全局变量；rand.push用于将产生的随机数添加到rand数组中；console.log用于显示数据，合理地调试；onload和newrand方法调用产生的随机数
+
+6.2案例代码
+Index.wxml
+<!--index.wxml-->
+<view class="box">
+    <view class="title">彩票小程序</view>
+    <view class="one">彩票号：</view>
+    <view class="test" wx:for="{{rand}}">{{item}}</view>
+    <button type='primary' bindtap='newRand'>重新产生</button>
+    <view class="name_and_class">
+      <view>孙宁祥</view>
+      <view>电科19-2</view>
+      <view>201923010223</view>
+    </view>
+</view>
+
+
+Index.wxss
+/**index.wxss**/
+button{
+  margin-top: 20px;
+}
+.title{
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: red;
+}
+.name_and_class{
+  font-family: cursive;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: end;
+  margin-bottom: 15px;
+  color: blue;
+}
+.one{
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: red;
+}
+.test{
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: blue;
+  background-color: yellow;
+}
+
+
+Index.js
+// index.js
+var rand,sum;
+function createRand(){
+  rand=[]
+  sum=0;
+  for(var i=0;i<7;i++){
+    var r=(Math.random()*30+1).toFixed(0)*1;
+    rand.push(r);
+    console.log(rand[i]);
+  }
+  console.log(sum);
+};
+Page({
+  onLoad:function(){
+    createdRand();
+    this.setData({
+      rand:rand,
+    })
+  },
+  newRand:function(){
+    createRand();
+    this.setData({
+      rand:rand,
+    })
+  }
+})
+
+6.3案例执行截图
+
+
+6.4分析总结
+定义了onload函数和newrand函数：rand存储随机数列 sum 存储随机变量的和。
+Math.random（）*31产生31以内的随机数，*1是将产生的随机数字符转换为数值类型。
+定义了全局函数和全局变量；rand.push用于将产生的随机数添加到rand数组中；console.log用于显示数据，合理地调试；
+通过this.setData()方法将结果渲染到视图层。
