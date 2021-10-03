@@ -1,0 +1,12 @@
+<!--pages/index/index.wxml-->
+<view class="picture" style="text-align: center;">
+    <image src="/images/shandong.jpg"></image>
+</view>
+<view class='text1'>
+    山东省简称鲁。位于中国东部沿海，地处黄河下游。境域包括半岛和内陆两部分。东部的胶东半岛突出于渤海与黄海之中，隔海与辽东半岛遥相对峙；内陆部分自北而南与河北、河南、安徽、江苏4省接壤。全境东西宽约700千米，南北长约420千米，面积15.33万平方千米。
+</view>
+<view class="name_and_class">
+      <view>孙宁祥</view>
+      <view>电科19-2</view>
+      <view>201923010223</view>
+    </view>

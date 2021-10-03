@@ -1,0 +1,16 @@
+<!--pages/qingdao/qingdao.wxml-->
+<!--pages/yantai/yantai.wxml-->
+<!--pages/taishan/taishan.wxml-->
+<view class="picture" style="text-align: center;">
+    <image src="/images/qingdao1.jpg"></image>
+</view>
+<view class='text1'>
+    提到青岛，最具有代表性的形容就是“红瓦绿树，碧海蓝天”。因处黄海之滨，它是非常有名的避暑胜地。另外，青岛所特有的欧洲风情同样令人神往。漫步在金色的沙滩上、蔚蓝的大海边和苍翠的松树下，实在令人神清气爽。青岛自古以来就是文人贤士所留恋的地方，留下了许多名人的痕迹。
+</view>
+<view class="picture" style="text-align: center;">
+    <image src="/images/qingdao2.jpg"></image>
+</view>
+<view class='text1'>
+    青岛的崂山被誉为“海上名山第一”，山海相依的景象曾让无数游客为之惊叹。并且同样充满了浓郁的文化气息和神秘的传奇色彩。
+</view>
+

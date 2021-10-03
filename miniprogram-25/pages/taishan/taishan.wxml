@@ -1,0 +1,25 @@
+<!--pages/taishan/taishan.wxml-->
+<view class="picture" style="text-align: center;">
+    <image src="/images/taishan1.jpg"></image>
+</view>
+<view class='text1'>
+    五岳为群山之尊，泰山为五岳之长。五岳是中国五大名山的总称，一般指东岳泰山（位于山东）、西岳华山（位于陕西）、南岳衡山（位于湖南）、北岳恒山（位于山西）、中岳嵩山（位于河南）。
+</view>
+<view class="picture" style="text-align: center;">
+    <image src="/images/taishan4.jpg"></image>
+</view>
+<view class='text1'>
+    古代传统文化认为，东方为万物交替、初春发生之地，故泰山有“五岳之长”、“五岳独尊”的称誉。
+</view>
+<view class="picture" style="text-align: center;">
+    <image src="/images/taishan3.jpg"></image>
+</view>
+<view class='text1'>
+    古人形容“泰山吞西华，压南衡，驾中嵩，轶北恒，为五岳之长”。中国古代神话传说中，盘古死后，头部化为泰山。据《史记集解》所载：“天高不可及，于泰山上立封禅而祭之，冀近神灵也。”
+</view>
+<view class="picture" style="text-align: center;">
+    <image src="/images/taishan2.jpg"></image>
+</view>
+<view class='text1'>
+    泰山崛起于华北平原之东，凌驾于齐鲁平原之上，东临烟波浩淼的大海，西靠源远流长的黄河，南有汶、泗、淮之水，与平原、丘陵相对高差1300米，形成强烈的对比，因而在视觉上显得格外高大的节奏感和“一览众山小”的高旷气势。
+</view>

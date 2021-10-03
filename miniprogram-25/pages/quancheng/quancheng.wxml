@@ -1,0 +1,22 @@
+<!--pages/quancheng/quancheng.wxml-->
+<!--pages/taishan/taishan.wxml-->
+<view class="picture" style="text-align: center;">
+    <image src="/images/jinan1.jpg"></image>
+</view>
+<view class='text1'>
+    早就在宋代，文学家曾巩就评价道：“齐多甘泉，冠于天下”，元代地理学家于钦亦称赞说：“济南山水甲齐鲁，泉甲天下。”清凉甘美的泉水是济南市的血脉，赋予这座城市灵秀的气质和旺盛的生命力。
+</view>
+<view class="picture" style="text-align: center;">
+    <image src="/images/jinan2.jpg"></image>
+</view>
+<view class='text1'>
+    济南的泉水不仅数量多，而且形态各异，精彩纷呈，有的呈喷涌状，有的呈瀑布状，有的呈湖湾状，众多清冽甘美的泉水，从城市地下涌出，汇为河流、湖泊。
+</view>
+<view class="picture" style="text-align: center;">
+    <image src="/images/jinan3.jpg"></image>
+</view>
+<view class='text1'>
+    济南素以泉水众多、风景秀丽而闻名天下，据统计有四大泉域，十大泉群，733个天然泉，在国内外城市中罕见，是举世无双的天然岩溶泉水博物馆，除“泉城”外济南也被常被称为“泉都”，因“家家泉水户户垂柳”有著名的七十二泉，一派江南风光而得名。
+</view>
+
+

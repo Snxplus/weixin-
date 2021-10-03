@@ -1,0 +1,22 @@
+<!--pages/yantai/yantai.wxml-->
+<!--pages/taishan/taishan.wxml-->
+<view class="picture" style="text-align: center;">
+    <image src="/images/yantai1.jpg"></image>
+</view>
+<view class='text1'>
+    烟台自然资源丰富。这里是全国重要的渔业基地之一，盛产海参、对虾、鲍鱼、扇贝等70多种海珍品；是中国北方著名的水果产地，烟台苹果、莱阳梨、大樱桃等享誉海内外.
+</view>
+<view class="picture" style="text-align: center;">
+    <image src="/images/yantai2.jpg"></image>
+</view>
+<view class='text1'>
+    烟台旅游资源丰富。这里依山傍海，自然资源独特，有多处国家级森林公园及国家级候鸟自然保护区等。
+</view>
+<view class="picture" style="text-align: center;">
+    <image src="/images/yantai3.jpg"></image>
+</view>
+<view class='text1'>
+    优美的自然风光和人文景观，每年吸引了大批中外游客前来观光旅游。1998年烟台成为首批54座"中国优秀旅游城市"之一。
+</view>
+
+

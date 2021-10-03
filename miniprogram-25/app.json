@@ -1,0 +1,54 @@
+
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/taishan/taishan",
+        "pages/quancheng/quancheng",
+        "pages/yantai/yantai",
+        "pages/qingdao/qingdao",
+        "pages/map/map"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "好客山东欢迎您",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#000",
+        "selectedColor": "#00f",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/images/首页未选中.png",
+                "selectedIconPath": "/images/首页选中.png"
+            },
+            {
+                "pagePath": "pages/taishan/taishan",
+                "text": "泰山",
+                "iconPath": "/images/泰山-未选中.png",
+                "selectedIconPath": "/images/泰山-选中.png"
+            },
+            {
+                "pagePath": "pages/quancheng/quancheng",
+                "text": "泉城",
+                "iconPath": "/images/泉城-未选中.png",
+                "selectedIconPath": "/images/泉城-选中.png"
+            },
+            {
+                "pagePath": "pages/yantai/yantai",
+                "text": "烟台",
+                "iconPath": "/images/烟台-未选中.png",
+                "selectedIconPath": "/images/烟台-选中.png"
+            },
+            {
+                "pagePath": "pages/qingdao/qingdao",
+                "text": "青岛",
+                "iconPath": "/images/青岛-未选中.png",
+                "selectedIconPath": "/images/青岛-选中.png"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}
